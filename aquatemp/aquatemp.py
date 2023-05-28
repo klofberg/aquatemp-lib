@@ -4,6 +4,9 @@ import requests
 import hashlib
 from datetime import datetime, timedelta
 
+def apa():
+    print("apa")
+
 @dataclass
 class AquaTempData:
     powered_on: bool
